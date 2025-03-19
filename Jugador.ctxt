@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Jugador
+comment1.params=nombre
+comment1.target=Jugador(java.lang.String)
+comment2.params=carta
+comment2.target=void\ recibirCarta(Carta)
+comment3.params=indice
+comment3.target=Carta\ descartarCarta(int)
+comment4.params=
+comment4.target=int\ valorMano()
+comment5.params=
+comment5.target=java.lang.String\ toString()
+numComments=6
