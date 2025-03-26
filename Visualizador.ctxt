@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Visualizador
+comment0.text=\r\n\ Clase\ responsable\ de\ mostrar\ gr\u00E1ficamente\ una\ carta\ en\ una\ posici\u00F3n\ espec\u00EDfica\ del\ canvas.\r\n\ Utiliza\ figuras\ b\u00E1sicas\ (cuadrados)\ y\ texto\ para\ representar\ el\ valor\ y\ palo\ de\ la\ carta.\r\n
+comment1.params=c\ p
+comment1.target=void\ carta(Carta,\ Posicion)
+comment1.text=\r\n\ M\u00E9todo\ principal\ que\ dibuja\ una\ carta\ completa\ en\ la\ posici\u00F3n\ especificada.\r\n\ @param\ c\ Carta\ a\ visualizar\r\n\ @param\ p\ Posici\u00F3n\ donde\ dibujar\ la\ carta\ (coordenadas\ X,Y)\r\n
+comment2.params=p
+comment2.target=void\ dibujarFondo(Posicion)
+comment2.text=\r\n\ Dibuja\ el\ fondo\ de\ la\ carta\ como\ un\ cuadrado\ blanco\ con\ borde.\r\n\ @param\ p\ Posici\u00F3n\ base\ para\ el\ fondo\ de\ la\ carta\r\n
+comment3.params=c\ p
+comment3.target=void\ dibujarContenido(Carta,\ Posicion)
+comment3.text=\r\n\ Dibuja\ el\ contenido\ de\ la\ carta\ (valor\ y\ s\u00EDmbolo\ del\ palo).\r\n\ @param\ c\ Carta\ con\ la\ informaci\u00F3n\ a\ mostrar\r\n\ @param\ p\ Posici\u00F3n\ base\ para\ el\ contenido\r\n
+comment4.params=palo
+comment4.target=java.lang.String\ obtenerSimboloPalo(Carta.Palo)
+comment4.text=\r\n\ Obtiene\ el\ s\u00EDmbolo\ Unicode\ correspondiente\ a\ cada\ palo.\r\n\ @param\ palo\ Palo\ de\ la\ carta\r\n\ @return\ S\u00EDmbolo\ gr\u00E1fico\ del\ palo\r\n
+comment5.params=palo
+comment5.target=java.lang.String\ obtenerColorPalo(Carta.Palo)
+comment5.text=\r\n\ Determina\ el\ color\ a\ usar\ seg\u00FAn\ el\ est\u00E1ndar\ de\ naipes.\r\n\ @param\ palo\ Palo\ de\ la\ carta\r\n\ @return\ "red"\ para\ corazones/diamantes,\ "black"\ para\ tr\u00E9boles/picas\r\n
+comment6.params=forma\ initX\ initY\ destX\ destY
+comment6.target=void\ moverForma(Square,\ int,\ int,\ int,\ int)
+comment6.text=\r\n\ Mueve\ una\ forma\ desde\ su\ posici\u00F3n\ inicial\ a\ la\ posici\u00F3n\ objetivo.\r\n\ @param\ forma\ Objeto\ Square\ a\ mover\r\n\ @param\ initX\ Posici\u00F3n\ X\ inicial\ en\ BlueJ\r\n\ @param\ initY\ Posici\u00F3n\ Y\ inicial\ en\ BlueJ\r\n\ @param\ destX\ Posici\u00F3n\ X\ objetivo\r\n\ @param\ destY\ Posici\u00F3n\ Y\ objetivo\r\n
+numComments=7

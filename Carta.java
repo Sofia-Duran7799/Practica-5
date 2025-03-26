@@ -1,4 +1,4 @@
-public class Carta {
+public  class Carta {
     // Enums internos
     public enum Palo {
         CORAZONES, DIAMANTES, TREBOLES, PICAS
@@ -39,6 +39,15 @@ public class Carta {
         return valor.getValorNumerico();
     }
 
+       public ValorCarta getValor() {
+        return valor;
+    }
+    
+    public Palo getPalo() {
+        return palo;
+    }
+    
+    
     @Override
     public String toString() {
         return valor.getSimbolo() + " de " + palo.name().charAt(0) + 

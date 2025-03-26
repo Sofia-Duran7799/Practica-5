@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Posicion
+comment0.text=\r\n\ Representa\ una\ posici\u00F3n\ en\ un\ espacio\ 2D\ con\ coordenadas\ (X,Y).\r\n\ Se\ utiliza\ para\ ubicar\ elementos\ gr\u00E1ficos\ en\ el\ canvas.\r\n
+comment1.params=posicionX\ posicionY
+comment1.target=Posicion(int,\ int)
+comment1.text=\r\n\ Constructor\ que\ inicializa\ una\ posici\u00F3n\ con\ coordenadas\ espec\u00EDficas.\r\n\ @param\ posicionX\ Valor\ horizontal\ (debe\ ser\ >\=\ 0)\r\n\ @param\ posicionY\ Valor\ vertical\ (debe\ ser\ >\=\ 0)\r\n\ @throws\ IllegalArgumentException\ Si\ las\ coordenadas\ son\ negativas\r\n
+comment2.params=
+comment2.target=int\ getPosicionX()
+comment2.text=\r\n\ @return\ La\ coordenada\ horizontal\ actual\r\n
+comment3.params=posicionX
+comment3.target=void\ setPosicionX(int)
+comment3.text=\r\n\ Establece\ una\ nueva\ coordenada\ horizontal.\r\n\ @param\ posicionX\ Nuevo\ valor\ (debe\ ser\ >\=\ 0)\r\n
+comment4.params=
+comment4.target=int\ getPosicionY()
+comment4.text=\r\n\ @return\ La\ coordenada\ vertical\ actual\r\n
+comment5.params=posicionY
+comment5.target=void\ setPosicionY(int)
+comment5.text=\r\n\ Establece\ una\ nueva\ coordenada\ vertical.\r\n\ @param\ posicionY\ Nuevo\ valor\ (debe\ ser\ >\=\ 0)\r\n
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment6.text=\r\n\ Representaci\u00F3n\ textual\ de\ la\ posici\u00F3n.\r\n\ @return\ String\ en\ formato\ "Posicion\ en\ X\:\ [valor],\ Posicion\ en\ Y\:\ [valor]"\r\n
+numComments=7

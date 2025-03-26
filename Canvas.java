@@ -29,7 +29,7 @@ public class Canvas
     {
         if(canvasSingleton == null) {
             canvasSingleton = new Canvas("BlueJ Picture Demo", 500, 300, 
-                                         Color.white);
+                                         Color.green);
         }
         canvasSingleton.setVisible(true);
         return canvasSingleton;
@@ -146,6 +146,7 @@ public class Canvas
         else {
             graphic.setColor(Color.black);
         }
+        
     }
 
     /**
@@ -224,7 +225,39 @@ public class Canvas
         {
             setForegroundColor(colorString);
             graphic.fill(shape);
+            
         }
     }
+    
+      /**
+     * Dibuja una cadena de texto en el canvas con configuración gráfica predeterminada.
+     * - Usa fuente Arial, negrita, tamaño 24px
+     * - Aplica el color actual configurado en el canvas
+     * - Actualiza automáticamente la visualización del canvas
+     * 
+     * @param text Cadena a dibujar (soporta caracteres Unicode)
+     * @param x    Coordenada horizontal (en píxeles desde el borde izquierdo)
+     * @param y    Coordenada vertical (en píxeles desde el borde superior)
+     *
+     */
+    public void drawString(String text, int x, int y) {
+        // Configuración gráfica fija
+        graphic.setFont(new Font("Arial", Font.BOLD, 24));  // Fuente no personalizable
+        graphic.setColor(getColorActual());  // Mantiene el color predefinido
+        
+        // Renderizado del texto
+        graphic.drawString(text, x, y);  // Dibuja en coordenadas especificadas
+        
+        // Actualización visual
+        canvas.repaint();  // Vuelve a pintar todo el canvas
+    }
 
+    /**
+     * Método auxiliar que obtiene el color actual del contexto gráfico.
+     * @return Color actual configurado para dibujar
+     * @apiNote Uso interno - Evitar llamar directamente desde fuera de la clase Canvas
+     */
+    private Color getColorActual() {
+        return graphic.getColor();  // Devuelve color sin modificarlo
+    }
 }
