@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Cuadrado
+comment0.text=\r\n\ La\ clase\ {@code\ Cuadrado}\ representa\ un\ cuadrado\ gr\u00E1fico\ posicionable\ que\ hereda\ de\ {@code\ Square}.\r\n\ <p>\r\n\ Permite\ crear\ cuadrados\ de\ tama\u00F1o\ personalizado\ en\ coordenadas\ espec\u00EDficas,\ ajustando\ su\ posici\u00F3n\r\n\ relativa\ respecto\ a\ la\ posici\u00F3n\ original\ de\ la\ clase\ base\ (310,\ 120).\r\n\ </p>\r\n\ \r\n\ @author\ Aileen\ Sofia\ Duran\ Bello\r\n\ @version\ 1.0\r\n
+comment1.params=pos\ size
+comment1.target=Cuadrado(Posicion,\ int)
+comment1.text=\r\n\ Construye\ un\ cuadrado\ en\ la\ posici\u00F3n\ y\ tama\u00F1o\ especificados.\r\n\ <p>\r\n\ La\ posici\u00F3n\ se\ calcula\ como\ un\ desplazamiento\ desde\ la\ posici\u00F3n\ por\ defecto\ de\ {@code\ Square}.\r\n\ </p>\r\n\ \r\n\ @param\ pos\ \ \ Objeto\ {@code\ Posicion}\ con\ las\ coordenadas\ objetivo\ (x,\ y)\r\n\ @param\ size\ \ Tama\u00F1o\ del\ cuadrado\ en\ p\u00EDxeles\ (lado\ x\ lado)\r\n
+numComments=2

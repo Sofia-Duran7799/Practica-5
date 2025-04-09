@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Visualizador
+comment0.text=\r\n\ La\ clase\ {@code\ Visualizador}\ proporciona\ m\u00E9todos\ est\u00E1ticos\ para\ representar\ gr\u00E1ficamente\ cartas\ en\ un\ canvas.\r\n\ <p>\r\n\ Esta\ clase\ permite\ dibujar\ cartas\ con\ su\ valor\ num\u00E9rico\ y\ s\u00EDmbolo\ de\ palo\ correspondiente\ en\ una\ posici\u00F3n\ espec\u00EDfica.\r\n\ </p>\r\n\ \r\n\ @author\ Aileen\ Sofia\ Duran\ Bello\r\n\ @version\ 1.0\r\n
+comment1.params=c\ p
+comment1.target=void\ carta(Carta,\ Posicion)
+comment1.text=\r\n\ Dibuja\ una\ carta\ en\ la\ posici\u00F3n\ especificada\ con\ los\ siguientes\ elementos\:\r\n\ <ul>\r\n\ \ \ <li>Un\ fondo\ blanco\ cuadrado</li>\r\n\ \ \ <li>Peque\u00F1os\ c\u00EDrculos\ negros\ representando\ el\ valor\ num\u00E9rico</li>\r\n\ \ \ <li>S\u00EDmbolo\ gr\u00E1fico\ del\ palo\ en\ el\ centro</li>\r\n\ </ul>\r\n\ \r\n\ @param\ c\ Carta\ a\ visualizar\r\n\ @param\ p\ Posici\u00F3n\ de\ la\ esquina\ superior\ izquierda\ del\ fondo\ de\ la\ carta\r\n
+numComments=2

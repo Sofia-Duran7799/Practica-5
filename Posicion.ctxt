@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Posicion
+comment0.text=\r\n\ La\ clase\ {@code\ Posicion}\ representa\ una\ ubicaci\u00F3n\ en\ un\ espacio\ bidimensional,\ \r\n\ utilizando\ coordenadas\ cartesianas\ (x,\ y).\r\n\ <p>\r\n\ Esta\ clase\ se\ utiliza\ para\ posicionar\ elementos\ gr\u00E1ficos\ en\ un\ canvas\ o\ superficie\ de\ dibujo.\r\n\ Las\ coordenadas\ (0,0)\ corresponden\ t\u00EDpicamente\ a\ la\ esquina\ superior\ izquierda\ del\ \u00E1rea\ de\ trabajo.\r\n\ </p>\r\n\ \r\n\ @author\ Aileen\ Sofia\ Duran\ Bello\r\n\ @version\ 1.0\r\n
+comment1.params=x\ y
+comment1.target=Posicion(int,\ int)
+comment1.text=\r\n\ Construye\ una\ posici\u00F3n\ con\ las\ coordenadas\ especificadas.\r\n\ \r\n\ @param\ x\ Coordenada\ horizontal\ (valor\ entero)\r\n\ @param\ y\ Coordenada\ vertical\ (valor\ entero)\r\n
+comment2.params=
+comment2.target=int\ getX()
+comment2.text=\r\n\ Obtiene\ la\ coordenada\ X\ de\ la\ posici\u00F3n.\r\n\ \r\n\ @return\ Valor\ entero\ que\ representa\ la\ posici\u00F3n\ en\ el\ eje\ horizontal\r\n
+comment3.params=
+comment3.target=int\ getY()
+comment3.text=\r\n\ Obtiene\ la\ coordenada\ Y\ de\ la\ posici\u00F3n.\r\n\ \r\n\ @return\ Valor\ entero\ que\ representa\ la\ posici\u00F3n\ en\ el\ eje\ vertical\r\n
+numComments=4

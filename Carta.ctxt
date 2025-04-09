@@ -1,9 +1,13 @@
 #BlueJ class context
 comment0.target=Carta
+comment0.text=\r\n\ La\ clase\ {@code\ Carta}\ representa\ una\ carta\ de\ una\ baraja\ est\u00E1ndar,\ \r\n\ con\ un\ valor\ num\u00E9rico\ y\ un\ palo\ espec\u00EDfico.\r\n\ <p>\r\n\ Esta\ clase\ permite\ crear\ objetos\ que\ modelan\ cartas\ individuales,\ \r\n\ donde\ cada\ carta\ tiene\ un\ valor\ (como\ 1\ para\ As,\ 13\ para\ Rey)\ \r\n\ y\ un\ palo\ v\u00E1lido\ (Trebol,\ Diamante,\ Pica,\ Corazon).\r\n\ </p>\r\n\ \r\n\ @author\ Aileen\ Sofia\ Duran\ Bello\r\n\ @version\ 1.0\r\n
 comment1.params=valor\ palo
-comment1.target=Carta(Carta.ValorCarta,\ Carta.Palo)
+comment1.target=Carta(int,\ java.lang.String)
+comment1.text=\r\n\ Construye\ una\ nueva\ carta\ con\ el\ valor\ y\ palo\ especificados.\r\n\ \r\n\ @param\ valor\ Valor\ num\u00E9rico\ de\ la\ carta\ (ej\:\ 1\ para\ As,\ 13\ para\ Rey).\r\n\ @param\ palo\ \ Palo\ de\ la\ carta.\ Debe\ ser\ uno\ de\:\ Trebol,\ Diamante,\ Pica,\ Corazon.\r\n
 comment2.params=
-comment2.target=int\ getValorNumerico()
+comment2.target=int\ getValor()
+comment2.text=\r\n\ Obtiene\ el\ valor\ num\u00E9rico\ de\ la\ carta.\r\n\ \r\n\ @return\ El\ valor\ de\ la\ carta\ (entero).\r\n
 comment3.params=
-comment3.target=java.lang.String\ toString()
+comment3.target=java.lang.String\ getPalo()
+comment3.text=\r\n\ Obtiene\ el\ palo\ de\ la\ carta.\r\n\ \r\n\ @return\ El\ palo\ de\ la\ carta\ como\ cadena\ (ej\:\ "Trebol").\r\n
 numComments=4

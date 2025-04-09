@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Main
+comment0.text=\r\n\ La\ clase\ {@code\ Main}\ es\ la\ clase\ principal\ que\ demuestra\ el\ uso\ del\ visualizador\ de\ cartas.\r\n\ <p>\r\n\ Esta\ clase\ crea\ un\ conjunto\ de\ cartas\ de\ diferentes\ palos\ y\ valores,\ y\ las\ despliega\ gr\u00E1ficamente\r\n\ en\ posiciones\ horizontales\ sucesivas\ dentro\ del\ canvas.\r\n\ </p>\r\n\ \r\n\ @author\ Aileen\ Sofia\ Duran\ Bello\r\n\ @version\ 1.0\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\r\n\ Punto\ de\ entrada\ principal\ del\ programa.\r\n\ <p>\r\n\ Crea\ 4\ cartas\ de\ prueba\ con\ diferentes\ palos\ y\ valores,\ y\ las\ visualiza\ en\ el\ canvas\r\n\ con\ un\ espaciado\ horizontal\ de\ 115px\ entre\ cada\ carta.\r\n\ </p>\r\n\ \r\n\ @param\ args\ Argumentos\ de\ l\u00EDnea\ de\ comandos\ (no\ se\ utilizan\ en\ esta\ implementaci\u00F3n)\r\n
+numComments=2

@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Triangulo
+comment0.text=\r\n\ La\ clase\ {@code\ Triangulo}\ representa\ un\ tri\u00E1ngulo\ gr\u00E1fico\ posicionable\ que\ hereda\ de\ {@code\ Triangle}.\r\n\ <p>\r\n\ Esta\ clase\ permite\ ubicar\ un\ tri\u00E1ngulo\ en\ coordenadas\ espec\u00EDficas\ del\ canvas,\ ajustando\ su\ posici\u00F3n\r\n\ relativa\ respecto\ a\ la\ posici\u00F3n\ original\ de\ la\ clase\ base\ (210,\ 140).\r\n\ </p>\r\n\ \r\n\ @author\ Aileen\ Sofia\ Duran\ Bello\r\n\ @version\ 1.0\r\n
+comment1.params=pos
+comment1.target=Triangulo(Posicion)
+comment1.text=\r\n\ Construye\ un\ tri\u00E1ngulo\ en\ la\ posici\u00F3n\ especificada.\r\n\ <p>\r\n\ Calcula\ el\ desplazamiento\ necesario\ desde\ la\ posici\u00F3n\ por\ defecto\ de\ {@code\ Triangle}\ (210,\ 140)\r\n\ para\ ubicarlo\ en\ las\ coordenadas\ deseadas.\r\n\ </p>\r\n\ \r\n\ @param\ pos\ Objeto\ {@code\ Posicion}\ que\ indica\ las\ coordenadas\ (x,\ y)\ donde\ se\ dibujar\u00E1\ el\ tri\u00E1ngulo\r\n
+numComments=2

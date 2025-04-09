@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Corazon
+comment0.text=\r\n\ La\ clase\ {@code\ Corazon}\ representa\ gr\u00E1ficamente\ el\ palo\ de\ Coraz\u00F3n\ \r\n\ utilizando\ tres\ cuadrados\ rojos\ dispuestos\ en\ forma\ de\ coraz\u00F3n.\r\n\ <p>\r\n\ El\ coraz\u00F3n\ se\ compone\ de\:\r\n\ <ul>\r\n\ \ \ <li>Un\ cuadrado\ superior\ centrado\ en\ la\ posici\u00F3n\ dada</li>\r\n\ \ \ <li>Dos\ cuadrados\ en\ la\ base,\ colocados\ sim\u00E9tricamente</li>\r\n\ </ul>\r\n\ Todos\ los\ componentes\ se\ dibujan\ autom\u00E1ticamente\ en\ color\ rojo\ al\ crear\ la\ instancia.\r\n\ </p>\r\n\ \r\n\ @author\ Aileen\ Sofia\ Duran\ Bello\r\n\ @version\ 1.0\r\n
+comment1.params=pos
+comment1.target=Corazon(Posicion)
+comment1.text=\r\n\ Construye\ un\ coraz\u00F3n\ en\ la\ posici\u00F3n\ especificada.\r\n\ \r\n\ @param\ pos\ Posici\u00F3n\ central\ donde\ se\ ubicar\u00E1\ el\ coraz\u00F3n\r\n
+numComments=2

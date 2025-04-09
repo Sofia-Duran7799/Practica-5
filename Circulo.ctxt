@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Circulo
+comment0.text=\r\n\ La\ clase\ {@code\ Circulo}\ representa\ un\ c\u00EDrculo\ gr\u00E1fico\ posicionable\ que\ hereda\ de\ {@code\ Circle}.\r\n\ <p>\r\n\ Esta\ clase\ permite\ ubicar\ un\ c\u00EDrculo\ en\ coordenadas\ espec\u00EDficas\ del\ canvas,\ ajustando\ su\ posici\u00F3n\r\n\ relativa\ respecto\ a\ la\ posici\u00F3n\ original\ de\ la\ clase\ base\ (230,\ 90).\r\n\ </p>\r\n\ \r\n\ @author\ Aileen\ Sofia\ Duran\ Bello\r\n\ @version\ 1.0\r\n
+comment1.params=pos
+comment1.target=Circulo(Posicion)
+comment1.text=\r\n\ Construye\ un\ c\u00EDrculo\ en\ la\ posici\u00F3n\ especificada.\r\n\ <p>\r\n\ Calcula\ el\ desplazamiento\ necesario\ desde\ la\ posici\u00F3n\ por\ defecto\ de\ {@code\ Circle}\ (230,\ 90)\r\n\ para\ ubicarlo\ en\ las\ coordenadas\ deseadas.\r\n\ </p>\r\n\ \r\n\ @param\ pos\ Objeto\ {@code\ Posicion}\ que\ indica\ las\ coordenadas\ (x,\ y)\ donde\ se\ dibujar\u00E1\ el\ c\u00EDrculo\r\n
+numComments=2
